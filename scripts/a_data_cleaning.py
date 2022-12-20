@@ -1,5 +1,7 @@
 import warnings
 import logging
+from os import mkdir
+
 logging.captureWarnings(True)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -102,6 +104,7 @@ def stem_text (list_stem):
     return stem_biglist
 
 # LEMITIZATION -------------------------------------------------
+
 def lemit_text (list_lemit):
     wnet = WordNetLemmatizer()
     lemit_biglist = []
@@ -130,9 +133,8 @@ clean_text_7 = remove_char(clean_text_6)
 print(clean_text_7)
 clean_text_8 = stem_text(clean_text_7)
 print(clean_text_8)
-
 final_data = clean_text_8
-
+print(final_data)
 
 # x = open("Final_Data.py", "w+")
 # x.write(str(clean_text_7))

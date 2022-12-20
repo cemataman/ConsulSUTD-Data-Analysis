@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60304d2f-b610-472f-bbcd-53efae1abdd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ConsulSUTD Data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_data_cleaning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b_sentiment_analysis.py" afterDir="false" />
+    <list default="true" id="60304d2f-b610-472f-bbcd-53efae1abdd3" name="Changes" comment="ongoing">
+      <change afterPath="$PROJECT_DIR$/scripts/c_topic_modeling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_data_cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/a_data_cleaning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/b_sentiment_analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +35,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.b_sentiment_analysis">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/venv" />
+      <recent name="$PROJECT_DIR$/scripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.a_data_cleaning">
     <configuration name="a_data_cleaning" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ConsulSUTD-Data-Analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -51,7 +59,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a_data_cleaning.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/a_data_cleaning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +81,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b_sentiment_analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/b_sentiment_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,8 +105,17 @@
       <option name="presentableId" value="Default" />
       <updated>1671084728728</updated>
       <workItem from="1671084730078" duration="49000" />
-      <workItem from="1671084795649" duration="12714000" />
+      <workItem from="1671084795649" duration="24309000" />
+      <workItem from="1671522341375" duration="2358000" />
     </task>
+    <task id="LOCAL-00001" summary="ongoing">
+      <created>1671104608091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671104608092</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,11 +132,15 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ongoing" />
+    <option name="LAST_COMMIT_MESSAGE" value="ongoing" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/a_data_cleaning.py</url>
+          <url>file://$PROJECT_DIR$/scripts/a_data_cleaning.py</url>
           <line>35</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -127,7 +148,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$b_sentiment_analysis.coverage" NAME="b_sentiment_analysis Coverage Results" MODIFIED="1671103954179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$a_data_cleaning.coverage" NAME="a_data_cleaning Coverage Results" MODIFIED="1671085759268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$b_sentiment_analysis.coverage" NAME="b_sentiment_analysis Coverage Results" MODIFIED="1671162001962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$a_data_cleaning.coverage" NAME="a_data_cleaning Coverage Results" MODIFIED="1671513225210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
