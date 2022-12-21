@@ -26,7 +26,7 @@ nltk.download('punkt', quiet=True)
 nltk.download('wordnet', quiet=True)
 
 # Import Data From ConsulSUTD excel file -----------------------
-def read_consul (fn = 'ConsulSUTD Data.xlsx'):
+def read_consul (fn = '/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/data/ConsulSUTD Data.xlsx'):
     df = pd.read_excel(fn, sheet_name='Debates Content', index_col=0, header=0)
     return(df)
 
@@ -136,6 +136,6 @@ print(clean_text_8)
 final_data = clean_text_8
 print(final_data)
 
-# x = open("Final_Data.py", "w+")
-# x.write(str(clean_text_7))
-# x.close()
+x = open("/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/data/intermediate_data/final_data.py", "w+")
+x.write(str(final_data))
+x.close()
