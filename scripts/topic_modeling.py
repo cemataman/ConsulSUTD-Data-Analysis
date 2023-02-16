@@ -16,11 +16,17 @@ x.close()
 ### Creating our Corpus
 id2word = corpora.Dictionary(final_data) #Initilize a dictionary (list of words) by using our dataset
 
+#Save the dictionary
+id2word.save('/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/data/intermediate_data/LDA_model/id2word.dict')
+
 # Creating our corpus: a list of tuples corresponding the word id and their frequency in text
 corpus = []
 for text in final_data:
     new = id2word.doc2bow(text) # create a bag of words (bow)
     corpus.append(new)
+
+#Save the Corpus
+corpora.MmCorpus.serialize('/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/data/intermediate_data/LDA_model/corpus.mm', corpus)
 
 # Creating LDA model by defining the hyperparameters
 lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus,
@@ -33,6 +39,6 @@ lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus,
                                             alpha="auto",
                                             per_word_topics=True)
 
-# Saving the LDA model
+# Save the LDA model
 lda_model.save('/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/data/intermediate_data/LDA_model/LDA_model.model')
 
