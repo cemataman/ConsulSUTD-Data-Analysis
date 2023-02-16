@@ -12,12 +12,13 @@ Please include the following citation if you are interested in using this datase
 Ataman, Cem, Bige Tuncer, and Simon Perrault. 2022. ”Asynchronous Digital Participation in Urban Design Processes: Qualitative Data Exploration and Analysis with Natural Language Processing”. In *POST-CARBON - Proceedings of the 27th Conference on Computer-Aided Architectural Design Research in Asia (CAADRIA),* 383–92, Sydney, Australia.
 
 ## How to use the code
-the code should be followed by:
-1. data_cleaning.py
-2. sentiment_analysis.py
-3. topic_modeling.py
+It is recommended to follow the order of these three steps when executing the code:
 
-the scripts for visualizations and analysis can be used according to the purpose of the analysis after creating the model. The file path should be replaced by your own dataset.
+Run the **data_cleaning.py** file to preprocess the data.
+Next, execute **sentiment_analysis.py** to perform sentiment analysis on the preprocessed data.
+Finally, run **topic_modeling.py** to build a topic model based on the preprocessed data and the results of sentiment analysis.
+
+After creating the model, the visualization and analysis scripts can be used as per the analysis requirements. Please ensure to replace the file path with your own dataset.
 
 ### Folders & Scripts
 - Data
