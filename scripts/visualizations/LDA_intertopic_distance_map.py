@@ -33,7 +33,7 @@ for topic in lda_topics:
 # intertopic distance map
 def intertopicmap ():
     vis = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word, mds="mmds", R=30)
-    pyLDAvis.save_html(vis, '/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/results/Consul_LDA_visualization.html')
+    pyLDAvis.save_html(vis, '/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/results/final_visualizations/Consul_LDA_visualization.html')
 
 # run for the html
 # intertopicmap()

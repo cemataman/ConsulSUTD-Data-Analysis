@@ -62,17 +62,15 @@ plot = figure(title="t-SNE Clustering of {} LDA Topics".format(n_topics),
               width=800, height=600)
 plot.scatter(x=tsne_lda[:,0], y=tsne_lda[:,1], color=mycolors[topic_num])
 
-
-
 ### FINAL DISPLAY AND SAVE OUTPUTS
 
 # Display the plot
-show(plot)
+pprint(plot)
 
 # specify the output file and save them
 ### as HTML
-# output_file("/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/results/tsne.html")
+# output_file("/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/results/final_visualizations/tsne.html")
 # save(plot)
 
 ###as PNG
-# export_png(plot, filename="/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/results/tsne.png")
+# export_png(plot, filename="/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/results/final_visualizations/tsne.png")

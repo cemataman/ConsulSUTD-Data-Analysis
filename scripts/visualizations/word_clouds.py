@@ -69,7 +69,7 @@ for i, ax in enumerate(axes.flatten()):
         plt.gca().imshow(cloud)
         plt.gca().set_title('Topic ' + str(i), fontdict=dict(size=20))
         plt.gca().axis('off')
-        plt.savefig(f'/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/results/wordcloud.png')
+        plt.savefig(f'/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/results/final_visualizations/wordcloud.png')
 
 # Adjust the layout and display the plot
 plt.subplots_adjust(wspace=0, hspace=0)

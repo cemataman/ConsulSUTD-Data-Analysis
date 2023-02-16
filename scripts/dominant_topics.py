@@ -97,4 +97,3 @@ pprint(sent_topics_sorteddf_mallet)
 sent_topics_sorteddf_mallet.to_excel('/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis/results/dominant_topics.xlsx', index=False)
 
 
-
