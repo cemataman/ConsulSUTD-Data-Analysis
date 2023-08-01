@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60304d2f-b610-472f-bbcd-53efae1abdd3" name="Changes" comment="final changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model.expElogbeta.npy" beforeDir="false" afterPath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model.expElogbeta.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model.id2word" beforeDir="false" afterPath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model.id2word" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model.state" beforeDir="false" afterPath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model.state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/intermediate_data/LDA_model/id2word.dict" beforeDir="false" afterPath="$PROJECT_DIR$/data/intermediate_data/LDA_model/id2word.dict" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/topic_modeling.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/topic_modeling.py" afterDir="false" />
-    </list>
+    <list default="true" id="60304d2f-b610-472f-bbcd-53efae1abdd3" name="Changes" comment="final changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,7 +219,7 @@
       <workItem from="1679370015380" duration="1811000" />
       <workItem from="1681377186362" duration="605000" />
       <workItem from="1685631006656" duration="960000" />
-      <workItem from="1690903065192" duration="2557000" />
+      <workItem from="1690903065192" duration="2909000" />
     </task>
     <task id="LOCAL-00001" summary="ongoing">
       <created>1671104608091</created>
@@ -272,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676538841195</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="final changes">
+      <created>1690907384279</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690907384279</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
