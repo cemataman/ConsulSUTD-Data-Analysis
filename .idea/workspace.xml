@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60304d2f-b610-472f-bbcd-53efae1abdd3" name="Changes" comment="update gitignore" />
+    <list default="true" id="60304d2f-b610-472f-bbcd-53efae1abdd3" name="Changes" comment="update gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ConsulSUTD-Data-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ConsulSUTD-Data-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +206,8 @@
       <workItem from="1681377186362" duration="605000" />
       <workItem from="1685631006656" duration="960000" />
       <workItem from="1690903065192" duration="4716000" />
-      <workItem from="1690909326926" duration="735000" />
+      <workItem from="1690909326926" duration="623000" />
+      <workItem from="1690910042037" duration="777000" />
     </task>
     <task id="LOCAL-00001" summary="ongoing">
       <created>1671104608091</created>
@@ -275,11 +280,11 @@
       <updated>1690908746631</updated>
     </task>
     <task id="LOCAL-00011" summary="update gitignore">
-      <created>1690910551689</created>
+      <created>1690910158323</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1690910551690</updated>
+      <updated>1690910158323</updated>
     </task>
     <option name="localTasksCounter" value="12" />
     <servers />
