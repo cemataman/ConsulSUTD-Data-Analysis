@@ -1,6 +1,6 @@
 data/intermediate_data/
 results/
-venv/bin/
+#venv/bin/
 scripts/data_visualization_interactive_map/map_data
 results/**/*.html
 results/**/*.xlsx
