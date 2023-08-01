@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60304d2f-b610-472f-bbcd-53efae1abdd3" name="Changes" comment="final changes">
-      <change afterPath="$PROJECT_DIR$/scripts/dominant_topics_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Consul_LDA_visualization.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/dominant_topics.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/results/dominant_topics.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/tsne.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/tsne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/wordcloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visualizations/LDA_intertopic_distance_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/visualizations/LDA_intertopic_distance_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visualizations/dominant_topics.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/dominant_topics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visualizations/tSNE_clustering.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visualizations/tSNE_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/visualizations/tSNE_clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visualizations/word_clouds.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/visualizations/word_clouds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model.expElogbeta.npy" beforeDir="false" afterPath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model.expElogbeta.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model.id2word" beforeDir="false" afterPath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model.id2word" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model.state" beforeDir="false" afterPath="$PROJECT_DIR$/data/intermediate_data/LDA_model/LDA_model.model.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/intermediate_data/LDA_model/id2word.dict" beforeDir="false" afterPath="$PROJECT_DIR$/data/intermediate_data/LDA_model/id2word.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/topic_modeling.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/topic_modeling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -38,14 +40,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "Console"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/cem_ataman/PycharmProjects/ConsulSUTD-Data-Analysis&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scripts" />
@@ -55,7 +58,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dominant_topics_2">
+  <component name="RunManager" selected="Python.deneme">
     <configuration name="LDA_intertopic_distance_map" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ConsulSUTD-Data-Analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dominant_topics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="deneme" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ConsulSUTD-Data-Analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,7 +116,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/dominant_topics.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/deneme.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tSNE_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="topic_modeling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ConsulSUTD-Data-Analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,7 +160,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/visualizations/tSNE_clustering.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/topic_modeling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,19 +193,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.data_cleaning" />
+      <item itemvalue="Python.deneme" />
+      <item itemvalue="Python.topic_modeling" />
+      <item itemvalue="Python.word_clouds" />
       <item itemvalue="Python.LDA_intertopic_distance_map" />
-      <item itemvalue="Python.visualization_dominant_topics" />
       <item itemvalue="Python.dominant_topics_2" />
-      <item itemvalue="Python.visualization_tSNE_clustering" />
-      <item itemvalue="Python.visualization_word_clouds" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.deneme" />
+        <item itemvalue="Python.topic_modeling" />
         <item itemvalue="Python.dominant_topics_2" />
         <item itemvalue="Python.LDA_intertopic_distance_map" />
-        <item itemvalue="Python.visualization_word_clouds" />
-        <item itemvalue="Python.visualization_tSNE_clustering" />
-        <item itemvalue="Python.visualization_dominant_topics" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +219,16 @@
       <workItem from="1671084730078" duration="49000" />
       <workItem from="1671084795649" duration="24309000" />
       <workItem from="1671522341375" duration="17890000" />
-      <workItem from="1676444706492" duration="24458000" />
+      <workItem from="1676444706492" duration="25483000" />
+      <workItem from="1676609032563" duration="85000" />
+      <workItem from="1677138783648" duration="563000" />
+      <workItem from="1677207299943" duration="25000" />
+      <workItem from="1677565793663" duration="912000" />
+      <workItem from="1677570861710" duration="3402000" />
+      <workItem from="1679370015380" duration="1811000" />
+      <workItem from="1681377186362" duration="605000" />
+      <workItem from="1685631006656" duration="960000" />
+      <workItem from="1690903065192" duration="2557000" />
     </task>
     <task id="LOCAL-00001" summary="ongoing">
       <created>1671104608091</created>
@@ -254,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676528222093</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="final changes">
+      <created>1676538841195</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676538841195</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,9 +298,9 @@
     <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$b_sentiment_analysis.coverage" NAME="b_sentiment_analysis Coverage Results" MODIFIED="1671605804746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$dominant_topics_2.coverage" NAME="dominant_topics_2 Coverage Results" MODIFIED="1676537386236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$visualization_word_clouds.coverage" NAME="word_clouds Coverage Results" MODIFIED="1676535857134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$topic_modeling.coverage" NAME="topic_modeling Coverage Results" MODIFIED="1676454879696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$topic_modeling.coverage" NAME="topic_modeling Coverage Results" MODIFIED="1677139106730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$sentiment_analysis.coverage" NAME="sentiment_analysis Coverage Results" MODIFIED="1676446457688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$deneme.coverage" NAME="deneme Coverage Results" MODIFIED="1671595649788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$deneme.coverage" NAME="deneme Coverage Results" MODIFIED="1677817940564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$data_cleaning.coverage" NAME="data_cleaning Coverage Results" MODIFIED="1676446273085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$c_topic_modeling.coverage" NAME="c_topic_modeling Coverage Results" MODIFIED="1671595629586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/ConsulSUTD_Data_Analysis$visualizations.coverage" NAME="dominant_topics Coverage Results" MODIFIED="1676528989855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />

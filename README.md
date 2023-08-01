@@ -1,5 +1,5 @@
 
-# Consul SUTD Data Analsis
+# Consul SUTD Data Analysis
 
 The Consul SUTD is a digital participation experiment conducted in the campus of the Singapore University of Technology and Design. Consul Project, an open-source and web-based application for citizen participation and open government, is modified and implemented for the experiment.
 
